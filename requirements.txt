@@ -1,0 +1,16 @@
+# ============================================================
+# Automated Textbook Generator - Dependencies
+# Install: pip install -r requirements.txt
+# ============================================================
+
+# Subtitle extraction from Bilibili/YouTube
+yt-dlp>=2024.1.0
+
+# Deterministic pinyin generation (no LLM hallucination risk)
+pypinyin>=0.51.0
+
+# HTTP requests to Ollama local API
+requests>=2.31.0
+
+# CLI progress feedback
+tqdm>=4.66.0
