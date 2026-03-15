@@ -1,0 +1,22 @@
+# 파이썬 가상환경 및 캐시 방어
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# yt-dlp 다운로드 찌꺼기 및 원본 자막 파일 방어
+*.mp4
+*.webm
+*.part
+*.ytdl
+*.srt
+*.vtt
+*.json
+
+# 결과물(교재)은 로컬에만 두고 깃허브엔 안 올림
+*.md
+!README.md  # (단, 설명서인 README.md는 예외로 업로드)
+
+# 맥/윈도우 시스템 찌꺼기
+.DS_Store
+Thumbs.db
